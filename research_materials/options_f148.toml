@@ -1,0 +1,13 @@
+# Service options example
+[client]
+enabled = true
+timeout_seconds = 30
+connect_seconds = 5
+retry_count = 2
+retry_delay_seconds = 1
+batch_size = 10
+cache_enabled = false
+log_level = "info"
+strict_inputs = true
+fallback = "empty"
+namespace = "sample"
